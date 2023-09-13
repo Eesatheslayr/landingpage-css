@@ -1,1 +1,2 @@
-# landingpage-css
+This is my first project after learning the basics and itermediate tools used in CSS.
+I will be implementing all that i have learnt to make a landing page as specified in the image attach to my odin project assigment.
