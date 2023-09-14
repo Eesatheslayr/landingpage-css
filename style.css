@@ -2,8 +2,8 @@ body{
 
 }
 img{
-    width: 200px;
-    height:150px;
+    width: 150px;
+    height:100px;
 }
 
 h1{
@@ -22,7 +22,6 @@ h1{
     background-color: #1F2937;
     color:white;
     padding-left:200px;
-    min-width:200px;
 }
 
 .right{
@@ -39,11 +38,10 @@ h1{
 
 .container{
     display:flex;
-    flex-direction: column;
+    justify-content: space-between;
     background-color: #1F2937;
-    flex-wrap:wrap;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    padding-bottom:80px;
 
 }
 
@@ -52,28 +50,55 @@ h1{
     font-size: 48px;
     font-weight: 1000px;
     margin-bottom: 0;
-    padding-left:200px;
-    width:400px;
+    background-color: #1F2937;
 }
 
-.text{
-    color:#e5e7eb;
+.main{
     margin-top: 0;
     padding-left: 205px;
     width:450px;
-}
-
-button{
-    background-color: blue;
-    color: white;
-    display: block;
-}
-
-.logo{
-    align-self: center;
+    margin:0;
 }
 
 .but{
-width: max-content;
-margin-left: 205px;
+    width: max-content;
+   background-color:#3882f6;
+   color:#f9fAF8;
+
+    }
+.text{
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size:18px;
+    color:#e5e7eb;
+}    
+
+.logo{
+    align-self: center;
+    margin-right: 200px;
+    width: 300px;
+    height:150px;
+    background-color: #1F2937;
+    background-size:500px 400px;
+}
+
+.subhead{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800px;
+    color:#1F2937
+}
+
+.samples{
+    display: flex;
+  justify-content: center;
+  gap:30px;
+}
+
+.word{
+    max-width:150px;
+}
+
+.info img{
+    border:5px #3882f6 solid;
 }
